@@ -1,0 +1,16 @@
+server:
+  port: 8761
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/eureka_db
+    username: postgres
+    password: Chandni@123
+
+    hikari:
+      minimum-idle: 2
+      maximum-pool-size: 10
+
+app:
+  service-name: Eureka Service
+  message: Eureka configuration loaded from GitHub
